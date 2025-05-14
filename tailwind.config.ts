@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Africa Gateway specific colors
+				'invest-green': '#25D366',
+				'invest-blue': '#0A2540',
+				'invest-light-blue': '#1E88E5',
+				'invest-navy': '#0F2E4D',
+				'invest-accent': '#FFB400',
+				'invest-gray': '#F7F9FC',
+				'invest-dark': '#1A202C',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
